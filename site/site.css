@@ -1,0 +1,371 @@
+@font-face {
+    font-family: Ledlight;
+    src: url(/src/fonts/LEDLIGHT.otf);
+}
+@font-face {
+    font-family: coir;
+    src: url(/src/fonts/Courier\ New.ttf);
+}
+@font-face {
+    font-family: typewriter;
+    src: url(/src/fonts/Mom«t___.ttf);
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    
+    background-repeat: repeat;
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+}
+@keyframes start {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+
+}
+.nav {
+    font-family: coir;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+
+.nav > a {
+    color: white;
+    text-align: center;
+    transition: 0.2s;
+    margin-top: -15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.nav > a:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+    border-radius: 0px;
+}
+.nav > img {
+    content: url("/src/SCPFoundation.webp");
+    color: white;
+    text-align: center;
+    margin-top: -15px;
+    border-radius: 0px;
+    transition: 0.2s;
+}
+.nav > img:hover {
+    content: url(/src/scp-inverted.png);
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.project {
+    width: 100%;
+    height: 750px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.295);
+    color: #ffffff;
+    padding-top: 75px;
+    font-family: Ledlight;
+}
+.overlay {
+    width: 100%;
+    height: 8500px;
+    background-image: url("/src/gifssss.gif");
+    background-repeat: repeat;
+    animation-name: start;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    margin-top: 0px;
+}
+.whatis {
+    scroll-margin-top: 65px;
+    padding-top: 30px;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.295);
+    color: #ffffff;
+    font-family: coir;
+    transition: 0.2s;
+}
+.whatis:hover {
+    background-color: #28282854;
+}
+.whatis > h1 {
+    color: white;
+    text-align: center;
+    transition: 0.2s;
+    margin-top: -15px;
+    border-radius: 5px;
+    font-family: coir;
+    
+}
+h1:hover {
+    color: rgb(59, 59, 59);
+    text-align: center;
+    border-radius: 0px;
+    font-family: coir;
+}
+p {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+p:hover {
+    background-color: rgba(91, 91, 91, 0.393);
+}
+.anchor {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 30px;
+}
+
+.aboutthestory {
+    scroll-margin-top: 50px;
+    padding-top: 30px;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.295);
+    color: #ffffff;
+    font-family: coir;
+    transition: 0.2s;
+}
+.aboutthestory:hover {
+    background-color: #28282854;
+}
+.fractions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(151, 151, 151);
+    background-image: url(/src/7dAADRC.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    width: 100%;
+    height: 750px;
+    gap: 30px;
+}
+.fractions > div > img {
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+}
+.Fcard {
+    width: 350px;
+    height: 600px;
+    background-image: url(/src/gifssss.gif);
+    border-radius: 25px;
+    transition: 0.2s;
+}
+.Fcard:hover {
+    background-color: rgb(112, 138, 103);
+    background-image: none;
+}
+.scp {
+    width: 350px;
+    height: 600px;
+    background-image: url(/src/gifssss.gif);
+    border-radius: 25px;
+    transition: 0.2s; }
+
+.scp:hover {
+    background-image: url(/src/scp-inverted.png);
+}
+.sites {
+    scroll-margin-top: 90px;
+    margin-top: 750px;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.295);
+    color: #ffffff;
+    font-family: coir;
+    transition: 0.2s;
+}
+.sites:hover {
+    background-color: #28282854;
+}
+.sitezones {
+    scroll-margin-top: 65px;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.295);
+    color: #ffffff;
+    font-family: coir;
+    transition: 0.2s;
+}
+.zones {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: auto;
+    
+}
+.zones > img {
+    height: 360px;
+    width: 640px;
+    transition: 0.2s;
+    border: solid rgb(0, 0, 0) 0px;
+    border-radius: 25px;
+}
+.zones > img:hover {
+    border: solid white 2px;
+    border-radius: 25px;
+}
+.textzones {
+    height: auto;
+    width: 750px;
+}
+.scps {
+    scroll-margin-top: 90px;
+    margin-top: 1500px;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.295);
+    color: #ffffff;
+    font-family: coir;
+    transition: 0.2s;
+}
+.scps:hover {
+    background-color: #28282854;
+}
+.list {
+    display: flex;
+    justify-content: center;
+}
+li {
+    text-align: left;
+    width: 700px;
+    height: auto;
+    margin-top: 50px;
+}
+li > p {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+li > p:hover {
+    background-color: rgba(91, 91, 91, 0.393);
+}
+.games {
+    scroll-margin-top: 90px;
+    margin-top: 1500px;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.295);
+    color: #ffffff;
+    font-family: coir;
+    transition: 0.2s;
+}
+.oclass {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    
+}
+
+.oclass > img {
+    height: 175px;
+    width: 175px;
+}
+
+.warning {
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%); 
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    z-index: 1000; 
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-family: coir;
+}
+
+.warning > h1:hover {
+    color: rgb(184, 184, 184);
+}
+.warning > img {
+    position: relative;
+}
+.warning > button {
+    width: 100px;
+    height: 25px;
+}
+.warning > p {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.warning > p:hover {
+ background-color: #ffffff00;
+}
+.list > a {
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+.sscp {
+    display: flex;
+    justify-content: center;
+}
+.htextscp{
+    text-decoration: none;
+    color: white;
+}
+.htextscp:hover {
+    text-decoration: underline;
+    color: white;
+}
+.gamesflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
+}
+.gamesflex > p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.tablediv {
+    margin-top: 150px;
+}
+.table {
+    width: 100%;
+    
+}
+.tabletop > th {
+    background-color: rgb(36, 36, 36);
+    height: 50px;
+    
+}
+th {
+    background-color: rgb(36, 36, 36);
+    height: 30px;
+    
+}
+td {
+    background-color: rgb(145, 145, 145);
+    height: 30px;
+}
+.end {
+    color: white;
+    text-align: center;
+}

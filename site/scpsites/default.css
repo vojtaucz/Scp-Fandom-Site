@@ -1,0 +1,98 @@
+@font-face {
+    font-family: coir;
+    src: url(/src/fonts/Courier\ New.ttf);
+}
+@font-face {
+    font-family: coir;
+    src: url(/src/fonts/Courier\ New.ttf);
+}
+.nav {
+    font-family: coir;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    z-index: 1000;
+    margin-top: 0px;
+    top: 0px;
+}
+.nav > a {
+    color: white;
+    text-align: center;
+    transition: 0.2s;
+    margin-top: -15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.nav > a:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+    border-radius: 0px;
+}
+.nav > img {
+    content: url("/src/SCPFoundation.webp");
+    color: white;
+    text-align: center;
+    margin-top: -15px;
+    border-radius: 0px;
+    transition: 0.2s;
+}
+.nav > img:hover {
+    content: url(/src/scp-inverted.png);
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    background-image: url(/src/gifssss.gif);
+    background-repeat: repeat-x;
+}
+.content {
+    font-family: coir;
+    padding: 20px; 
+    margin: 125px 75px; 
+    background-color: white;
+    color: #000;
+    border-radius: 10px;
+    text-align: center;
+}
+h1 {
+    text-decoration: underline;
+}
+p {
+    margin-left: 125px;
+    margin-right: 125px;
+}
+.imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    font-family: coir;
+    padding: 20px; 
+    margin: 125px 75px; 
+    background-color: rgba(86, 86, 86, 0.546);
+    color: #000;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.imgs > img {
+    
+    height: 250px;
+    width: auto;
+}
+a {
+    color: #a01;
+}
